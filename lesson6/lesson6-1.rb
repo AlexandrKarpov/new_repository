@@ -9,7 +9,7 @@ class Cone
       return
     end
 
-    unless r >= 0 || h >= 0
+    unless r > 0 && h > 0
       puts "Ошибка! Введенные числа не должны быть отрицательными или равняться 0"
       return
     end
